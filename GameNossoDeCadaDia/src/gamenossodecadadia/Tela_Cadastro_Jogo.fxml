@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="CJ_Pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="338.0" prefWidth="453.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="CJ_Text_Titulo" layoutX="14.0" layoutY="37.0" prefHeight="25.0" prefWidth="418.0" promptText="No Man's Sky" />
+      <Text layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Titulo do Jogo:" wrappingWidth="120.13671875" />
+      <Text layoutX="14.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descrição:" wrappingWidth="120.13671875" />
+      <TextField fx:id="CJ_Text_Descricao" alignment="TOP_LEFT" layoutX="14.0" layoutY="93.0" prefHeight="86.0" prefWidth="418.0" promptText="Jogo de mundo aberto onde o objetivo é explorar planetas." />
+      <TextField fx:id="CJ_Text_Genero" layoutX="14.0" layoutY="197.0" prefHeight="25.0" prefWidth="226.0" promptText="MMO/RPG" />
+      <Text layoutX="14.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Genero:" wrappingWidth="120.13671875" />
+      <Text layoutX="14.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Autor/Developer:" wrappingWidth="120.13671875" />
+      <TextField fx:id="CJ_Text_Autor" alignment="TOP_LEFT" layoutX="14.0" layoutY="248.0" prefHeight="25.0" prefWidth="418.0" promptText="11BIt Studios." />
+      <Button fx:id="CJ_Button_Salvar" layoutX="14.0" layoutY="291.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="61.0" text="Salvar" />
+      <Button fx:id="CJ_Button_Limpar" layoutX="97.0" layoutY="291.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" text="Limpar Campos" />
+      <Button fx:id="CJ_Button_Voltar" layoutX="361.0" layoutY="291.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Voltar" />
+   </children>
+</Pane>
